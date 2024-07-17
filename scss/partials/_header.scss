@@ -1,0 +1,15 @@
+header{
+    @include flex(row wrap, center, center);
+}
+
+.encabezado {
+    background: linear-gradient($celeste, $azul);
+    width: 90%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: 2px solid rgb(68, 113, 212);
+    transition: all 0.5s;
+    &:hover{
+        transform:  scale(1.05,1.1);
+    }
+}

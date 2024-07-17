@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(rgb(107, 203, 248), rgb(27, 104, 140));
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+
+header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.encabezado {
+  background: linear-gradient(rgb(107, 203, 248), rgb(68, 113, 212));
+  width: 90%;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border: 2px solid rgb(68, 113, 212);
+  transition: all 0.5s;
+}
+.encabezado:hover {
+  transform: scale(1.05, 1.1);
+}
+
+main {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: normal;
+}
+
+.contenedor {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carta {
+  background: linear-gradient(rgb(255, 255, 255), rgb(213, 213, 213));
+  border: 2px solid rgb(80, 116, 207);
+  border-radius: 25px;
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 70%;
+}
+
+.imagen {
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  transition: all 0.5s;
+}
+.imagen:hover {
+  transform: scale(1, 1.1);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.pie {
+  background-color: rgb(213, 213, 213);
+  border: 2px solid rgb(80, 116, 207);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  transition: all 0.5s;
+}
+.pie:hover {
+  transform: scale(1.1, 1);
+}
+
+/* tablet */
+@media (max-width: 768px) {
+  .carta {
+    width: 90%;
+  }
+}
+/* mobile */
+@media (max-width: 320px) {
+  .encabezado {
+    width: 100%;
+  }
+  .carta {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

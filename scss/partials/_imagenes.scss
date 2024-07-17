@@ -1,0 +1,8 @@
+.imagen{
+    @include medidas(150px, 150px);
+    border-radius: 100px;
+    transition: all 0.5s;
+    &:hover{
+        transform:  scale(1,1.1);
+    }
+}

@@ -1,0 +1,16 @@
+/* tablet */
+@media (max-width: 768px){
+    .carta{
+        width: 90%;
+    }
+}
+
+/* mobile */
+@media (max-width: 320px){
+    .encabezado{
+        width: 100%;
+    }
+    .carta{
+        width: 100%;
+    }
+}

@@ -1,0 +1,18 @@
+main{
+    @include flex(column,center,normal);
+}
+
+.contenedor {
+    @include flex(column, center, center);
+}
+
+.carta {
+    background: linear-gradient($blanco, $gris-claro);
+    border: 2px solid $borde-color;
+    border-radius: 25px;
+    background-color: $blanco;
+    margin: 0 auto;
+    @include flex(wrap column, center,center);
+    text-align: center;
+    width: 70%; 
+} 

@@ -1,0 +1,19 @@
+$borde-color: rgb(80, 116, 207);
+$blanco: rgb(255, 255, 255);
+$gris-claro: rgb(213, 213, 213);
+$celeste-claro: rgb(199, 217, 235);
+$azul: rgb(68, 113, 212);
+$celeste: rgb(107, 203, 248);
+$azul-oscuro: rgb(27, 104, 140);
+
+@mixin flex($flujo, $contenido, $alineacion){
+    display: flex;
+    flex-flow: $flujo;
+    justify-content: $contenido;
+    align-items: $alineacion;
+}
+
+@mixin medidas($width, $height){
+    height: $height;
+    width: $width;
+}
