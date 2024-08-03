@@ -1,8 +1,14 @@
-@import "partials/variables";
-@import "partials/general";
-@import "partials/body";
-@import "partials/header";
-@import "partials/principal";
-@import "partials/imagenes";
-@import "partials/footer";
-@import "partials/mq";
+//Reset
+@import "./variables";
+@import "./mixin";
+@import "./reset";
+//Layout
+@import "./components/body";
+@import "./components/header";
+@import "./components/contendor";
+@import "./components/carta";
+@import "./components/main";
+@import "./components/imagenes";
+@import "./components/footer";
+//Media queries
+@import "./mq";
